@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="2dp"
+    tools:context=".ClientActivity">
+
+    <ImageView
+        android:id="@+id/iv_left_head"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/left_ic" />
+    <TextView
+        android:id="@+id/tv_item_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="250dp"
+        android:background="@drawable/chat_item_bg_from"
+        android:gravity="left"
+        android:text="我很好" />
+</LinearLayout>
